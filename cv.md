@@ -1,8 +1,8 @@
 # Nastya Kazakova
 ## Personal Data
-*email* nasty.nagato@gmail.com
-*phone* +375295760852
-*github* [NastyaKazakovaa](https://github.com/NastyaKazakovaa)
+*email* nasty.nagato@gmail.com  
+*phone* +375295760852  
+*github* [NastyaKazakovaa](https://github.com/NastyaKazakovaa)  
 ## About me
 Junior frontend developer
 ## Skills
@@ -11,7 +11,8 @@ Junior frontend developer
 * React
 * jQuery
 ## Code examples
-```  function getDistanceBetweenSlideImages(el1, el2) {
+```
+function getDistanceBetweenSlideImages(el1, el2) {
     el1rect = el1.getBoundingClientRect();
     el2rect = el2.getBoundingClientRect();
     el1x = el1rect.left + el1rect.width / 2;
@@ -29,10 +30,10 @@ Junior frontend developer
     );
   }
   ```
-  ## experience
+  ## Experience
   * software engineer at ZOOMOS,
   * frontend development courses MYFREEDOM
-  ## education
+  ## Education
   teacher of physics and computer science at BSPU 
-  ## level of english
+  ## Level of english
   B1(Intermediate)
