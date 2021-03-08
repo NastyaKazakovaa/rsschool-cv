@@ -1,91 +1,112 @@
 <!doctype html>
 <html lang="en">
+
 <head>
 	<meta charset="utf-8">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Nastya's Kazakova CV</title>
-	<style>
-		*{
-	font-family: 'Courier New', Courier, monospace;
-	}
-	.container{
-	width: 50%;
-	margin-left: auto;
-	margin-right: auto;
-	}
-	</style>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+
 </head>
+
 <body>
 	<div class="container">
-	<header>
-		<h1>Nastya Kazakova</h1>
-		<img src="https://avatars.githubusercontent.com/u/61790905?s=400&u=b4e9ef2641c570b4bb23bec5954e25f33f1bd44f&v=4" alt="">
-	</header>
-	<main>
-		<article>
-			<h2>Personal Data</h2>
+		<header>
+			<h1>Nastya Kazakova</h1>
+			<img src="photo.jpg" alt="Nastya Kazakova">
+		</header>
+		<main>
+			<article>
+				<h2>Personal Data</h2>
+				<ul class="personal-data">
+					<li>
+						<i>Email</i>
+						<span>nasty.nagato@gmail.com</span>
+					</li>
+					<li> <mark><i>Phone</i></mark>
+						<span>+375295760852</span>
+					</li>
+					<li>
+						<i>Github</i>
+						<a href="https://github.com/NastyaKazakovaa">NastyaKazakovaa</a>
+					</li>
+				</ul>
+			</article>
+			<article>
+				<h2>About me</h2>
+				<h3>Junior frontend developer</h3>
+				<h4>Practical experience in the frontend for about six months.
+					I am a quick learner, have analytical thinking and communication skills.</h4>
+			</article>
+			<article>
+				<h2>Skills</h2>
+				<ul>
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>JS</li>
+					<li>jQuery</li>
+					<li>React</li>
+				</ul>
+			</article>
 
-					<i>Email</i>
-					<span>nasty.nagato@gmail.com</span>
-				<br>
-					<i>Phone</i>
-					<span>+375295760852</span>
-				<br>
-					<i>Github</i>
-				 <a href="https://github.com/NastyaKazakovaa">NastyaKazakovaa</a>
-		</article>
-		<article>
-			<h2>About me</h2>
-			<p>Junior frontend developer</p>
-		</article>
-		<article>
-			<h2>Skills</h2>
-			<ul>
-				<li>HTML</li>
-				<li>CSS</li>
-				<li>JS</li>
-				<li>jQuery</li>
-				<li>React</li>
-			</ul>
-		</article>
-		<article>
-			<h2>Code examples</h2>
-			<code>
-				function getDistanceBetweenSlideImages(el1, el2) {<br>
-					el1rect = el1.getBoundingClientRect();<br>
-					el2rect = el2.getBoundingClientRect();<br>
-					el1x = el1rect.left + el1rect.width / 2;<br>
-					el1y = el1rect.top + el1rect.height / 2;<br>
-					el2x = el2rect.left + el2rect.width / 2;<br>
-					el2y = el2rect.top + el2rect.height / 2;<br>
-					// calculate the distance using the Pythagorean Theorem (a^2 + b^2 = c^2)<br>
-					let distanceSquared = Math.pow(el1x - el2x, 2) + Math.pow(el1y - el2y, 2);<br>
-					return Math.sqrt(distanceSquared);<br>
-			}<br>
-			function setLineWidthBetweenSlideImages() {<br>
-					document.documentElement.style.setProperty(<br>
-							"--line-distance",<br>
-							getDistanceBetweenSlideImages(img1, img2) + "px"<br>
-					);<br>
-			}<br>
-			</code>
-		</article>
-		<article>			
-			<h2>Experience</h2>
-			<ul>
-				<li>software engineer at ZOOMOS</li>
-				<li>frontend development courses MYFREEDOM</li>
-			</ul>
-		</article>
-		<article>
-			<h2>Education</h2>
-			<p>teacher of physics and computer science at BSPU</p>
-		</article>
-		<article>
-			<h2>Level of english</h2>
-			<p>B1(Intermediate)</p>
-		</article>
-	</main>
-</div>
+			<article>
+				<h2>Experience</h2>
+				<ul>
+					<li>software engineer at ZOOMOS</li>
+					<li>frontend development courses MYFREEDOM</li>
+				</ul>
+			</article>
+			<article>
+				<h2>Education</h2>
+				<p>teacher of physics and computer science at BSPU</p>
+			</article>
+			<article>
+				<h2>Level of english</h2>
+				<p>B1(Intermediate)</p>
+			</article>
+			<article>
+				<details>
+					<summary>
+					<h4>	Code examples</h4>
+					</summary>
+					<code>
+					function getDistanceBetweenSlideImages(el1, el2) {<br>
+						el1rect = el1.getBoundingClientRect();<br>
+						el2rect = el2.getBoundingClientRect();<br>
+						el1x = el1rect.left + el1rect.width / 2;<br>
+						el1y = el1rect.top + el1rect.height / 2;<br>
+						el2x = el2rect.left + el2rect.width / 2;<br>
+						el2y = el2rect.top + el2rect.height / 2;<br>
+						// calculate the distance using the Pythagorean Theorem (a^2 + b^2 = c^2)<br>
+						let distanceSquared = Math.pow(el1x - el2x, 2) + Math.pow(el1y - el2y, 2);<br>
+						return Math.sqrt(distanceSquared);<br>
+				}<br>
+				function setLineWidthBetweenSlideImages() {<br>
+						document.documentElement.style.setProperty(<br>
+								"--line-distance",<br>
+								getDistanceBetweenSlideImages(img1, img2) + "px"<br>
+						    );<br>
+				   }<br>
+				</code>
+				</details>
+			</article>
+		</main>
+		<footer>
+			<h5>2021</h5>
+			<a href="https://github.com/NastyaKazakovaa">
+				<img src="git.png" alt="github">
+			</a>
+			<a href="https://rs.school/js/">
+				<img src="rs_school_js.svg" alt="rs.school">
+			</a>
+			<a href="#">
+				<img src="YouTube_full-color_icon_(2017).svg" alt="YouTube">
+			</a>
+		</footer>
+	</div>
 </body>
+
 </html>
